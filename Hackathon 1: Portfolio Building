@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kusaselihle Nene | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        /* General Styles */
+        body {
+            background: linear-gradient(to right, #e0c3fc, #8e44ad);
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            text-align: center;
+        }
+
+        /* Header Styles */
+        header {
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #f39c12;
+            font-weight: bold;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 60px 20px;
+            margin-top: 80px;
+        }
+
+        /* About Section */
+        #about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #about p {
+            font-size: 1.1em;
+            line-height: 1.5;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Projects Section */
+        #projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .project {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .project a {
+            text-decoration: none;
+            color: #8e44ad;
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+
+        /* Skills Section */
+        #skills {
+            text-align: left;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        #skills h2 {
+            font-size: 2em;
+        }
+
+        #skills p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        /* Education Section */
+        #education {
+            text-align: left;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        #education h2 {
+            font-size: 2em;
+        }
+
+        #education p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        /* Contact Section */
+        #contact a {
+            color: #8e44ad;
+            text-decoration: none;
+        }
+
+        /* Footer */
+        footer {
+            background: #8e44ad;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Hello, I'm Kusaselihle Nene</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="https://i.imgur.com/NoK6q7y.jpeg" alt="Profile Picture">
+        <p>
+            Hi, I'm Kusaselihle Nene, a passionate front-end developer with a deep interest in financial planning.
+            I specialize in HTML, CSS, and JavaScript and enjoy creating interactive, user-friendly web applications.
+            My background in financial planning allows me to approach coding with a structured and analytical mindset.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Core Skills</h2>
+        <p><strong>Web Development:</strong> HTML, CSS, JavaScript, Responsive Web Design, Front-End Frameworks (React, Bootstrap), API integration.</p>
+        <p><strong>Financial Planning:</strong> Financial statement analysis, risk management, investment planning, retirement planning, tax planning, estate planning.</p>
+        <p><strong>Soft Skills:</strong> Problem-solving, critical thinking, communication, teamwork, time management, adaptability, and continuous learning.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Financial Planning</strong> - Tshwane University of Technology (2022 - Present)</p>
+        <p><strong>Software Development</strong> - Power Learn Academy</p>
+        <p><strong>Web Development</strong> - SheCode Foundation</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <img src="https://amanda-ullery-portfolio.netlify.app/images/worldclock.png" alt="World Clock Project">
+            <h3>World Clock</h3>
+            <a href="https://kusaselihle07.netlify.app/" target="_blank">View Project</a>
+        </div>
+
+        <div class="project">
+            <img src="https://static.vecteezy.com/system/resources/previews/027/221/330/large_2x/ai-artificial-intelligence-ai-generated-content-concept-artist-man-using-ai-art-to-generate-image-content-text-to-image-command-prompt-generates-technology-business-futuristic-transformation-photo.jpg" alt="AI Generator">
+            <h3>AI Generator</h3>
+            <a href="#">Coming Soon</a>
+        </div>
+
+        <div class="project">
+            <img src="https://th.bing.com/th/id/OIP.9OeTt-2mQXqzTJf7YqydpgHaFY?rs=1&pid=ImgDetMain" alt="Voice Assistant">
+            <h3>Voice Assistant</h3>
+            <a href="#">Coming Soon</a>
+        </div>
+
+        <div class="project">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fe9f1d29253287.55e992168ef7f.jpg" alt="BMI Calculator">
+            <h3>BMI Calculator</h3>
+            <a href="#">Coming Soon</a>
+        </div>
+
+        <div class="project">
+            <img src="https://th.bing.com/th/id/OIP.MYHJYpXiXbI57GFyc-eoiwHaEK?rs=1&pid=ImgDetMain" alt="Random Password Generator">
+            <h3>Random Password Generator</h3>
+            <a href="#">Coming Soon</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:sizolihle07@gmail.com">sizolihle07@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/kusaselihle07" target="_blank">github.com/kusaselihle07</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/kusaselihle-avele-nene-959507333" target="_blank">My LinkedIn</a></p>
+        <p>CV: <a href="https://drive.google.com/file/d/1fSurmMgxeSvK6gHFWFX0qK7OAZebEKAy/view?usp=sharing" target="_blank">Download My CV</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Kusaselihle Nene. All rights reserved.</p>
+    </footer>
+</body>
+</html>
